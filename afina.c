@@ -41,7 +41,7 @@ int inverse(int i)
         if(k==0) break;
     }
     k=(j*26+1)/i;
-    if(j==10000) return 0;
+    if(j==10000) exit(-1);
     return k;
 }
 
